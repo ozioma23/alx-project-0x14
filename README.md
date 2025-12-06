@@ -61,24 +61,6 @@ version 1 (v1)
 - All responses return an object containing a `results` property.
 - Endpoints that use pagination also include `page`, `next`, and `entries`.
 - Each `result` is structured based on the model (title, actor, rating, episode, etc.).
-- 
-```json
-{
-  "results": [
-    {
-      "id": "tt1375666",
-      "titleText": "Inception",
-      "genres": ["Action", "Sci-Fi"],
-      "ratingsSummary": {
-        "averageRating": 8.8,
-        "numVotes": 2300000
-      }
-    }
-  ],
-  "page": 1,
-  "next": 2,
-  "entries": 5
-}
 
 ## Authentication
 To use the MoviesDatabase API, you must:
